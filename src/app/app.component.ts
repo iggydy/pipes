@@ -26,6 +26,7 @@ export class AppComponent {
 
   idioma = 'es';
 
+  // tslint:disable-next-line: no-shadowed-variable
   valorPromesa = new Promise <string>( ( resolve ) => {
     setTimeout(() => {
       resolve('llego la data');
